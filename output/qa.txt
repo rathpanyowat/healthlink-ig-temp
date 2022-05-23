@@ -1,0 +1,76 @@
+﻿HealthlinkIG : Validation Results
+=========================================
+
+err = 0, warn = 37, info = 0
+IG Publisher Version: 1.1.120
+Generated Mon May 23 16:44:52 ICT 2022. FHIR version 4.0.1 for fhir.healthlink#0.4.3 (canonical = https://www.healthlink.go.th/fhir)
+ Build Errors : 0 / 13 / 0
+ /Users/rathpanyowat/Dev/healthlink-ig/HealthlinkIG/fsh-generated/resources/ImplementationGuide-fhir.healthlink : 0 / 0 / 1
+ /Users/rathpanyowat/Dev/healthlink-ig/HealthlinkIG/fsh-generated/resources/structuredefinition-HealthLinkAllergyIntolerance : 0 / 3 / 1
+ /Users/rathpanyowat/Dev/healthlink-ig/HealthlinkIG/fsh-generated/resources/structuredefinition-HealthLinkCondition : 0 / 3 / 1
+ /Users/rathpanyowat/Dev/healthlink-ig/HealthlinkIG/fsh-generated/resources/structuredefinition-HealthLinkDiagnosticReport : 0 / 1 / 1
+ /Users/rathpanyowat/Dev/healthlink-ig/HealthlinkIG/fsh-generated/resources/structuredefinition-HealthLinkDocumentReference : 0 / 1 / 1
+ /Users/rathpanyowat/Dev/healthlink-ig/HealthlinkIG/fsh-generated/resources/structuredefinition-HealthLinkEncounter : 0 / 1 / 1
+ /Users/rathpanyowat/Dev/healthlink-ig/HealthlinkIG/fsh-generated/resources/structuredefinition-HealthLinkIPSComposition : 0 / 1 / 1
+ /Users/rathpanyowat/Dev/healthlink-ig/HealthlinkIG/fsh-generated/resources/structuredefinition-HealthLinkImmunization : 0 / 3 / 1
+ /Users/rathpanyowat/Dev/healthlink-ig/HealthlinkIG/fsh-generated/resources/structuredefinition-HealthLinkMedicationQuantity : 0 / 1 / 1
+ /Users/rathpanyowat/Dev/healthlink-ig/HealthlinkIG/fsh-generated/resources/structuredefinition-HealthLinkMedicationStatement : 0 / 3 / 1
+ /Users/rathpanyowat/Dev/healthlink-ig/HealthlinkIG/fsh-generated/resources/structuredefinition-HealthLinkObservation : 0 / 1 / 1
+ /Users/rathpanyowat/Dev/healthlink-ig/HealthlinkIG/fsh-generated/resources/structuredefinition-HealthLinkOrganization : 0 / 1 / 1
+ /Users/rathpanyowat/Dev/healthlink-ig/HealthlinkIG/fsh-generated/resources/structuredefinition-HealthLinkPatient : 0 / 1 / 1
+ /Users/rathpanyowat/Dev/healthlink-ig/HealthlinkIG/fsh-generated/resources/structuredefinition-HealthLinkProcedure : 0 / 3 / 1
+ /Users/rathpanyowat/Dev/healthlink-ig/HealthlinkIG/fsh-generated/resources/structuredefinition-HealthLinkVisitComposition : 0 / 1 / 1
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/HealthLinkAllergyIntolerance.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/HealthLinkCondition.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/HealthLinkDiagnosticReport.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/HealthLinkDocumentReference.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/HealthLinkEncounter.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/HealthLinkIPSComposition.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/HealthLinkImmunization.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/HealthLinkMedicationStatement.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/HealthLinkObservation.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/HealthLinkOrganization.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/HealthLinkPatient.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/HealthLinkProcedure.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/HealthLinkVisitComposition.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+== fsh-generated/resources/ImplementationGuide-fhir.healthlink.json ==
+== fsh-generated/resources/StructureDefinition-HealthLinkAllergyIntolerance.json ==
+WARNING: StructureDefinition/HealthLinkAllergyIntolerance: StructureDefinition.differential.element[11].binding: The valueSet reference http://www.this.or.th/tmt_download.php on element AllergyIntolerance.code could not be resolved
+WARNING: StructureDefinition/HealthLinkAllergyIntolerance: StructureDefinition.snapshot.element[24].binding: The valueSet reference http://www.this.or.th/tmt_download.php on element AllergyIntolerance.code could not be resolved
+WARNING: StructureDefinition.where(url = 'https://www.healthlink.go.th/fhir/StructureDefinition/HealthLinkAllergyIntolerance'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-HealthLinkCondition.json ==
+WARNING: StructureDefinition/HealthLinkCondition: StructureDefinition.differential.element[9].binding: The valueSet reference http://thcc.or.th/ICD-10TM/ on element Condition.code could not be resolved
+WARNING: StructureDefinition/HealthLinkCondition: StructureDefinition.snapshot.element[23].binding: The valueSet reference http://thcc.or.th/ICD-10TM/ on element Condition.code could not be resolved
+WARNING: StructureDefinition.where(url = 'https://www.healthlink.go.th/fhir/StructureDefinition/HealthLinkCondition'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-HealthLinkDiagnosticReport.json ==
+WARNING: StructureDefinition.where(url = 'https://www.healthlink.go.th/fhir/StructureDefinition/HealthLinkDiagnosticReport'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-HealthLinkDocumentReference.json ==
+WARNING: StructureDefinition.where(url = 'https://www.healthlink.go.th/fhir/StructureDefinition/HealthLinkDocumentReference'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-HealthLinkEncounter.json ==
+WARNING: StructureDefinition.where(url = 'https://www.healthlink.go.th/fhir/StructureDefinition/HealthLinkEncounter'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-HealthLinkIPSComposition.json ==
+WARNING: StructureDefinition.where(url = 'https://www.healthlink.go.th/fhir/StructureDefinition/HealthLinkIPSComposition'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-HealthLinkImmunization.json ==
+WARNING: StructureDefinition/HealthLinkImmunization: StructureDefinition.differential.element[6].binding: The valueSet reference https://healthlink.go.th/tmt/tpu on element Immunization.vaccineCode could not be resolved
+WARNING: StructureDefinition/HealthLinkImmunization: StructureDefinition.snapshot.element[21].binding: The valueSet reference https://healthlink.go.th/tmt/tpu on element Immunization.vaccineCode could not be resolved
+WARNING: StructureDefinition.where(url = 'https://www.healthlink.go.th/fhir/StructureDefinition/HealthLinkImmunization'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-HealthLinkMedicationQuantity.json ==
+WARNING: StructureDefinition.where(url = 'https://apis.healthlink.go.th/api/v1/fhir/StructureDefinition/MedicationQuantity'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-HealthLinkMedicationStatement.json ==
+WARNING: StructureDefinition/HealthLinkMedicationStatement: StructureDefinition.differential.element[8].binding: The valueSet reference https://healthlink.go.th/tmt/tpu on element MedicationStatement.medicationCodeableConcept could not be resolved
+WARNING: StructureDefinition/HealthLinkMedicationStatement: StructureDefinition.snapshot.element[26].binding: The valueSet reference https://healthlink.go.th/tmt/tpu on element MedicationStatement.medication[x] could not be resolved
+WARNING: StructureDefinition.where(url = 'https://www.healthlink.go.th/fhir/StructureDefinition/HealthLinkMedicationStatement'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-HealthLinkObservation.json ==
+WARNING: StructureDefinition.where(url = 'https://www.healthlink.go.th/fhir/StructureDefinition/HealthLinkObservation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-HealthLinkOrganization.json ==
+WARNING: StructureDefinition.where(url = 'https://www.healthlink.go.th/fhir/StructureDefinition/HealthLinkOrganization'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-HealthLinkPatient.json ==
+WARNING: StructureDefinition.where(url = 'https://www.healthlink.go.th/fhir/StructureDefinition/HealthLinkPatient'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-HealthLinkProcedure.json ==
+WARNING: StructureDefinition/HealthLinkProcedure: StructureDefinition.differential.element[6].binding: The valueSet reference https://www.cdc.gov/nchs/icd/icd9.htm on element Procedure.code could not be resolved
+WARNING: StructureDefinition/HealthLinkProcedure: StructureDefinition.snapshot.element[26].binding: The valueSet reference https://www.cdc.gov/nchs/icd/icd9.htm on element Procedure.code could not be resolved
+WARNING: StructureDefinition.where(url = 'https://www.healthlink.go.th/fhir/StructureDefinition/HealthLinkProcedure'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-HealthLinkVisitComposition.json ==
+WARNING: StructureDefinition.where(url = 'https://www.healthlink.go.th/fhir/StructureDefinition/HealthLinkVisitComposition'): The Implementation Guide contains no examples for this profile

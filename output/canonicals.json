@@ -1,0 +1,107 @@
+[
+  {
+    "id": "HealthLinkMedicationQuantity",
+    "type": "StructureDefinition",
+    "url": "https://apis.healthlink.go.th/api/v1/fhir/StructureDefinition/MedicationQuantity",
+    "version": "0.4.3",
+    "name": "HealthLinkMedicationQuantity"
+  },
+  {
+    "id": "fhir.healthlink",
+    "type": "ImplementationGuide",
+    "url": "https://www.healthlink.go.th/fhir/ImplementationGuide/fhir.healthlink",
+    "version": "0.4.3",
+    "name": "HealthlinkIG"
+  },
+  {
+    "id": "HealthLinkAllergyIntolerance",
+    "type": "StructureDefinition",
+    "url": "https://www.healthlink.go.th/fhir/StructureDefinition/HealthLinkAllergyIntolerance",
+    "version": "0.4.3",
+    "name": "HealthLinkAllergyIntolerance"
+  },
+  {
+    "id": "HealthLinkCondition",
+    "type": "StructureDefinition",
+    "url": "https://www.healthlink.go.th/fhir/StructureDefinition/HealthLinkCondition",
+    "version": "0.4.3",
+    "name": "HealthLinkCondition"
+  },
+  {
+    "id": "HealthLinkDiagnosticReport",
+    "type": "StructureDefinition",
+    "url": "https://www.healthlink.go.th/fhir/StructureDefinition/HealthLinkDiagnosticReport",
+    "version": "0.4.3",
+    "name": "HealthLinkDiagnosticReport"
+  },
+  {
+    "id": "HealthLinkDocumentReference",
+    "type": "StructureDefinition",
+    "url": "https://www.healthlink.go.th/fhir/StructureDefinition/HealthLinkDocumentReference",
+    "version": "0.4.3",
+    "name": "HealthLinkDocumentReference"
+  },
+  {
+    "id": "HealthLinkEncounter",
+    "type": "StructureDefinition",
+    "url": "https://www.healthlink.go.th/fhir/StructureDefinition/HealthLinkEncounter",
+    "version": "0.4.3",
+    "name": "HealthLinkEncounter"
+  },
+  {
+    "id": "HealthLinkIPSComposition",
+    "type": "StructureDefinition",
+    "url": "https://www.healthlink.go.th/fhir/StructureDefinition/HealthLinkIPSComposition",
+    "version": "0.4.3",
+    "name": "HealthLinkIPSComposition"
+  },
+  {
+    "id": "HealthLinkImmunization",
+    "type": "StructureDefinition",
+    "url": "https://www.healthlink.go.th/fhir/StructureDefinition/HealthLinkImmunization",
+    "version": "0.4.3",
+    "name": "HealthLinkImmunization"
+  },
+  {
+    "id": "HealthLinkMedicationStatement",
+    "type": "StructureDefinition",
+    "url": "https://www.healthlink.go.th/fhir/StructureDefinition/HealthLinkMedicationStatement",
+    "version": "0.4.3",
+    "name": "HealthLinkMedicationStatement"
+  },
+  {
+    "id": "HealthLinkObservation",
+    "type": "StructureDefinition",
+    "url": "https://www.healthlink.go.th/fhir/StructureDefinition/HealthLinkObservation",
+    "version": "0.4.3",
+    "name": "HealthLinkObservation"
+  },
+  {
+    "id": "HealthLinkOrganization",
+    "type": "StructureDefinition",
+    "url": "https://www.healthlink.go.th/fhir/StructureDefinition/HealthLinkOrganization",
+    "version": "0.4.3",
+    "name": "HealthLinkOrganization"
+  },
+  {
+    "id": "HealthLinkPatient",
+    "type": "StructureDefinition",
+    "url": "https://www.healthlink.go.th/fhir/StructureDefinition/HealthLinkPatient",
+    "version": "0.4.3",
+    "name": "HealthLinkPatient"
+  },
+  {
+    "id": "HealthLinkProcedure",
+    "type": "StructureDefinition",
+    "url": "https://www.healthlink.go.th/fhir/StructureDefinition/HealthLinkProcedure",
+    "version": "0.4.3",
+    "name": "HealthLinkProcedure"
+  },
+  {
+    "id": "HealthLinkVisitComposition",
+    "type": "StructureDefinition",
+    "url": "https://www.healthlink.go.th/fhir/StructureDefinition/HealthLinkVisitComposition",
+    "version": "0.4.3",
+    "name": "HealthLinkVisitComposition"
+  }
+]

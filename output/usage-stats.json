@@ -1,0 +1,149 @@
+{
+  "package": "fhir.healthlink",
+  "version": "0.4.3",
+  "fhirVersion": "4.0.1",
+  "jurisdiction": "TH",
+  "extensions": [
+    {
+      "url": "https://apis.healthlink.go.th/api/v1/fhir/StructureDefinition/MedicationQuantity",
+      "title": "Health Link Medication Quantity",
+      "types": [
+        "string",
+        "Quantity",
+        "string",
+        "Quantity",
+        "string",
+        "Extension",
+        "decimal",
+        "code",
+        "string",
+        "uri",
+        "code"
+      ]
+    }
+  ],
+  "profiles": {
+    "AllergyIntolerance": [
+      {
+        "url": "https://www.healthlink.go.th/fhir/StructureDefinition/HealthLinkAllergyIntolerance",
+        "title": "Health Link AllergyIntolerance Profile"
+      }
+    ],
+    "Condition": [
+      {
+        "url": "https://www.healthlink.go.th/fhir/StructureDefinition/HealthLinkCondition",
+        "title": "Health Link Condition Profile"
+      }
+    ],
+    "DiagnosticReport": [
+      {
+        "url": "https://www.healthlink.go.th/fhir/StructureDefinition/HealthLinkDiagnosticReport",
+        "title": "Health Link DiagnosticReport Profile"
+      }
+    ],
+    "DocumentReference": [
+      {
+        "url": "https://www.healthlink.go.th/fhir/StructureDefinition/HealthLinkDocumentReference",
+        "title": "Health Link DocumentReference Profile"
+      }
+    ],
+    "Encounter": [
+      {
+        "url": "https://www.healthlink.go.th/fhir/StructureDefinition/HealthLinkEncounter",
+        "title": "Health Link Encounter Profile"
+      }
+    ],
+    "Composition": [
+      {
+        "url": "https://www.healthlink.go.th/fhir/StructureDefinition/HealthLinkVisitComposition",
+        "title": "Health Link Visit Composition Profile"
+      }
+    ],
+    "Immunization": [
+      {
+        "url": "https://www.healthlink.go.th/fhir/StructureDefinition/HealthLinkImmunization",
+        "title": "Health Link Immunization Profile"
+      }
+    ],
+    "MedicationStatement": [
+      {
+        "url": "https://www.healthlink.go.th/fhir/StructureDefinition/HealthLinkMedicationStatement",
+        "title": "Health Link MedicationStatement Profile"
+      }
+    ],
+    "Observation": [
+      {
+        "url": "https://www.healthlink.go.th/fhir/StructureDefinition/HealthLinkObservation",
+        "title": "Health Link Observation Profile"
+      }
+    ],
+    "Organization": [
+      {
+        "url": "https://www.healthlink.go.th/fhir/StructureDefinition/HealthLinkOrganization",
+        "title": "Health Link Organization Profile"
+      }
+    ],
+    "Patient": [
+      {
+        "url": "https://www.healthlink.go.th/fhir/StructureDefinition/HealthLinkPatient",
+        "title": "Health Link Patient Profile"
+      }
+    ],
+    "Procedure": [
+      {
+        "url": "https://www.healthlink.go.th/fhir/StructureDefinition/HealthLinkProcedure",
+        "title": "Health Link Procedure Profile"
+      }
+    ]
+  },
+  "usage": {
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice-explanation": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-category": [
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category": [
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "https://apis.healthlink.go.th/api/v1/fhir/StructureDefinition/MedicationQuantity": [
+      "MedicationStatement"
+    ]
+  }
+}
